@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("./fonts/Shabnam-FD.woff2") format("woff2");
+  }
+  .form {
+      display: grid;
+      background-color: white;
+      padding: 10px 25px;
+      width: 80%;
+      font-family: shabnam;
+      margin: 7rem auto 2rem;
+      border-radius: 4px;
+      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+      text-align: center;
+      color: black;
+      
+  }
+  .formDashboard {
+    
+    display: grid;
+    background-color: white;
+    padding: 10px 25px;
+    width: 40%;
+    font-family: shabnam;
+    margin: 7rem auto 2rem;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    color: black;
+    
+  }
+  
+  
+    .texts {
+      font-size:xx-large;
+      font-weight:bold;
+      font-family: shabnam;
+      margin-top: 40px;
+      text-align: right;
+      direction: rtl;
+      color: #3c2415;
+    }
+    
+   
+   
+ 
+  .btn {
+      padding: .8rem;
+      cursor: pointer;
+      color: white !important;
+      font-family: shabnam;
+      background-color: rgb(52, 24, 14);
+      margin-top: 40px;
+      font-size: 25px;
+  }
+  
+  
+  .form span {
+      text-align: right;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 20px;
+  }
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
